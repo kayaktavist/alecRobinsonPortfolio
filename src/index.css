@@ -7,12 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("./DSC_2521.jpg");
-  /* background-size:contain; */
-  /* background-position:top; */
-  /* background: cover; */
   color: wheat;
-  /* background-repeat:no-repeat; */
-  /* background-attachment: fixed; */
   overflow: scroll;
 
   min-height: 100vh;
@@ -22,11 +17,34 @@ body {
   background-position: center center;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 .about{
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+.projects{
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+.navbar-brand{
+  color: wheat;
+}
+
+.contact{
+  background-color: rgba(0, 0, 0, 0.37);
+  border: 1px solid black;
+
+}
+
+.contactHeader{
+  text-align: center;
+}
+
+.github{
+  text-align: center;
+
 }
