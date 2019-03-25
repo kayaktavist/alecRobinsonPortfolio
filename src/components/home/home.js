@@ -5,8 +5,8 @@ import ProjBlock from "../ProjBlock/projBlock";
 function Home() {
     return (
         <>
-        <About/>
         <ProjBlock/>
+        <About/>
         </>
     );
 }

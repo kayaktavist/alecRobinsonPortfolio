@@ -5,12 +5,18 @@ function ProjBlock() {
     return (
 
         <div className="container">
+
+            <div className="row mt-5">
+                <div className="col">
+                    <h1>Current Projects</h1>
+                </div>
+            </div>
             <div className="row mt-5">
                 <div className="col-sm-1"></div>
-                <div className="col-sm-3"><Link href="https://kayaktavist.github.io/project-one/"> <img className="img-fluid max-width:100 height:auto" src="adaJams.png" alt="placeholder" />ADA Jams</Link>
+                <div className="col-sm-3"><Link href="https://kayaktavist.github.io/project-one/"> <img className="img-fluid max-width:100 height:auto" src="images/adaJams.png" alt="placeholder" />ADA Jams</Link>
                 </div>
-                <div className="col-sm-3"><Link href="https://kayaktavist.github.io/TriviaGame/"><img className="img-fluid max-width:100 height:auto" src="trivia.png" alt="placeholder" />Trivia Game</Link></div>
-                <div className="col-sm-3"> <Link href="https://kayaktavist.github.io/Train-demo/"> <img className="img-fluid max-width:100 height:auto" src="train.png" alt="placeholder" />Train Scheduler</Link></div>
+                <div className="col-sm-3"><Link href="https://kayaktavist.github.io/TriviaGame/"><img className="img-fluid max-width:100 height:auto" src="images/trivia.png" alt="placeholder" />Trivia Game</Link></div>
+                <div className="col-sm-3"> <Link href="https://kayaktavist.github.io/Train-demo/"> <img className="img-fluid max-width:100 height:auto" src="images/train.png" alt="placeholder" />Train Scheduler</Link></div>
                 <div className="col-sm-3"></div>
             </div>
             <div className="row">
@@ -33,6 +39,11 @@ function ProjBlock() {
                     <div className="col-sm-1"></div> --> */}
 
             </div>
+            <div class="row">
+                <div class="col-12 mb-5"></div>
+            </div>
+
+            
         </div>
 
     );

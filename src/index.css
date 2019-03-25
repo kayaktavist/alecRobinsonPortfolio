@@ -6,9 +6,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./DSC_2521.jpg");
+  /* background-size:contain; */
+  /* background-position:top; */
+  /* background: cover; */
+  color: wheat;
+  /* background-repeat:no-repeat; */
+  /* background-attachment: fixed; */
+  overflow: scroll;
+
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.about{
+  background-color: rgba(0, 0, 0, .5);
 }

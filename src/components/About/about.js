@@ -2,15 +2,15 @@ import React from "react";
 
 function About() {
     return (
-        <div className="container">
+        <div className="container about m-5">
             <div className="row"> </div>
             <div className="row">
                 <div className="col">
-                    <h1>About Me</h1>
-                    <div className="row">
+                    <h1>About</h1>
+                    <div className="row mb-5">
                         <div className="col-sm-3">
 
-                            <img src="https://via.placeholder.com/150" alt="placeholder" />
+                            <img src="images/DSC_1560.jpg" alt="portrait" />
                         </div>
 
                         <div className="col-sm-8">
