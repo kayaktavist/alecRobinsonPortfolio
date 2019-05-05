@@ -10,7 +10,7 @@ function About() {
                     <div className="row mb-5">
                         <div className="col-sm-3">
 
-                            <img src="images/DSC_1560.jpg" alt="portrait" />
+                            <img src="images/profile.jpg" alt="profile portrait" />
                         </div>
 
                         <div className="col-sm-8">
